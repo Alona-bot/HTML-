@@ -1,0 +1,31 @@
+body{
+    background-color: antiquewhite;
+}
+.cl1{
+    margin: 0;
+    padding:20px;
+    height: 100px;
+    background-color: black;
+    text-align: center;
+    color: white;
+    
+}
+h6{
+    word-spacing: 20px;
+}
+.cl2{
+    height: 125px;
+    background-color: aliceblue;
+    margin: 30px;
+    padding: 15px;
+
+}
+
+.cl3{
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    padding: 0.5px;
+    
+}

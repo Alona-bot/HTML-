@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <fieldset>  <!--fieldset is used to create seperate form by using borders-->
+        <legend>My Form</legend>  <!--legend tag is used to give name to the form.-->
+    <form action="example.py" method="post" id="a1"> <!--Here method attribute is used to show/hide the id and password in the link tab. By default "get" is there which means it will show the data. "Post" means to hide the data.-->
+        
+        <label for="whatever"> User ID:</label> <!--inside label tag "for" is used to direct to that place where the text has to be written and inside input tag "id" will contain the same text as that of "for"-->
+        <input type="number" id="whatever" name="UID" value="K25ST"> <br>
+
+        <label for="id1">Enter the password:</label>
+        <input type="password" id="id1" name="password"> <br>
+
+        <label for="">Name:</label>
+        <input type="text" placeholder="Eg:Alona"> <br> <!--Placeholder is used to show the user how to enter the data inside that box.-->
+
+        <label for="">Email:</label>
+        <input type="gmail" placeholder="abc34@gmail.com"> <br>
+
+        <p>Enter the Gender</p>
+        <input type="radio" id="2" name="gender" value="girl">
+        <label for="2">Female</label>
+        <input type="radio" id="5" name="gender" value="boy">
+        <label for="5">Male</label>
+        <input type="radio" id="1" name="gender" value="others">
+        <label for="1">Others</label>
+    
+    
+        <p>Select the Subjects</p>
+        <input type="checkbox" id="3" name=" subject" value="maths">
+        <label for="3">Mathematics</label>
+        <input type="checkbox" id="4" name="subject" value="physics">
+        <label for="4">Physics</label>
+
+        <select name="" id=""> <!--For drop down options we use select tag.-->
+        <option value="India">India</option>
+        <option value="England">England</option>
+        <option value="USA">USA</option>
+        </select>
+        <br>
+
+        <label for="a2">Address</label>
+        <textarea name="" id="a2" rows="5" cols="10"></textarea>
+        <input type="file">  <!--File type is used to choose the file from the devide.-->
+    </form>
+    </fieldset>
+
+    <button type="submit" form="a1">Login</button>
+</body>
+</html>
